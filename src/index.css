@@ -1,105 +1,97 @@
+body{
+  overflow-x: hidden;
+}
 
+.sa-login{
+  text-decoration: none;
+}
 
-.bg-img {
-   
-    background-image: url("xy.png");
-    background-repeat: no-repeat;
+.sa-image{
+  background-color: #2433FF;
   
+}
+
+.banner_imgg{
+  height: 420px !important;
+  width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sa-img_btn{
+  background-color: #2433FF !important;
+  border-radius: 15px;
+  height: 45px;
+}
+
+.sa_text{
+  width: 590px;
+  margin-left: 25%;
  
-   
-  }
+}
 
-  .sa-container{
-    border: 6px solid gainsboro;
-  
-  }
-  
- .sa-heading{
-    margin: 20px 0px 0px 25px;
-    font-size: 20px;
- }
-
- .sa-margin{
-     margin-left: 25px !important;
- }
-
- .sa-left_text{
-     margin-top: 28rem;
-     margin-left: 11rem;
- }
-
- .sa-label{
-     font-size: 13px;
- }
-
-
- div#layout {
-    text-align: center;
-  }
-  
-  div#container {
-    width: 1000px;
-    height: 600px;
-    margin: auto;
-    background-color: #2F4A6D;
-  }
-  
-  svg {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .bar {
-    fill: #80cbc4;
-  }
-  
-  text {
-    font-size: 12px;
-    fill: #fff;
-  }
-  
-  path {
-    stroke: gray;
-  }
-  
-  line {
-    stroke: gray;
-  }
-  
-  line#limit {
-    stroke: #FED966;
-    stroke-width: 3;
-    stroke-dasharray: 3 6;
-  }
-  
-  .grid path {
-    stroke-width: 0;
-  }
-  
-  .grid .tick line {
-    stroke: #9FAAAE;
-    stroke-opacity: 0.3;
-  }
-  
-  text.divergence {
-    font-size: 14px;
-    fill: #2F4A6D;
-  }
-  
-  text.value {
-    font-size: 14px;
-  }
-  
-  text.title {
-    font-size: 22px;
-    font-weight: 600;
-  }
-  
-  text.label {
-    font-size: 14px;
+.sa-text_Align{
+ 
+    font-size: 2.4rem;
+    line-height: 3.6rem !important;
     font-weight: 400;
-  }
-  
-  text.source {
-    font-size: 10px;
-  }
+   
+}
+
+.sa_overall_clr{
+  background-color: #E9F0F8;
+}
+
+.sa_heading{
+  color: #2433FF;
+}
+
+.sa_img_text{
+  margin-top: 20px !important;
+  margin-left: 40px;
+}
+
+.card{
+  border: none;
+ 
+
+}
+
+.sa-card{
+  background-color: #E9F0F8 !important;
+}
+
+.card-text{
+  overflow-wrap: break-word !important;
+}
+
+.sa-clr{
+ background-color: #073E60;
+ padding-bottom: 40px;
+}
+
+.sa-inside{
+  background-color: white;
+text-align: center;
+  width: 80%;
+  height: 100%;
+  border-radius: 18px;
+}
+
+.sa-inside_text{
+  text-align: center;
+  color: #2433ff;
+}
+
+.pl{
+  margin-left: 20%;
+}
+
+.ul{
+  margin-right: 20%;
+}
